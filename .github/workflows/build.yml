@@ -1,4 +1,4 @@
-name: yadb buold workflow
+name: yadb build workflow
 
 on:
   push:

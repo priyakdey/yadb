@@ -22,3 +22,10 @@ fi
 echo "Building yadb-$VERSION.."
 go build -o "$EXE_PATH" "$PACKAGE"
 
+if [ -f "$EXE_PATH" ]; then
+    echo "Build successful"
+    exit 0
+else
+    exit 1
+fi
+
