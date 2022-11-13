@@ -1,6 +1,9 @@
 # Yet Another Database
 
 
+[![yadb build workflow](https://github.com/priyakdey/yadb/actions/workflows/build.yml/badge.svg?branch=main&event=push)](https://github.com/priyakdey/yadb/actions/workflows/build.yml)
+
+
 
 `yadb` is a 3AM idea. This is an **educational project** to learn 
 - How a database works (sql database)
