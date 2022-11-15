@@ -16,12 +16,9 @@ if [ ! -z "$GITHUB_WORKSPACE" ]; then
     PACKAGE_PATH="$GITHUB_WORKSPACE/..."
 else
     echo "Running on local. Setting package path accordingly"
-    PACKAGE_PATH="$PARENT_PATH/..."
+    PACKAGE_PATH="$PARENT_PATH/.././..."
 fi
 
-echo `ls -lrt $GITHUB_WORKSPACE`
-
-echo "$PACKAGE_PATH"
 
 go test -v --cover --covermode=count --coverprofile="$COVERAGE_REPORT_PATH" "$PACKAGE_PATH"
 
