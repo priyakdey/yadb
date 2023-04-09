@@ -1,0 +1,5 @@
+Usage hints:
+  help                Prints all commands
+  load  <filename>    Loads the database file
+  flush <filename>    Flushes unwritten data the database file
+  exit                Exits out of the REPL after it flushes all unwritten data to a file
